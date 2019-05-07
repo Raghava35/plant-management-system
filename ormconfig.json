@@ -2,13 +2,13 @@
   {
     "name": "default",
     "type": "postgres",
-    "host": "192.168.0.155",
+    "host": "localhost",
     "port": 5432,
     "username": "postgres",
     "password": "postgres",
     "database": "plant_management",
     "schema": "public",
-    "synchronize": false,
+    "synchronize": true,
     "entities": [
       "output/entities/*.ts"
     ]
