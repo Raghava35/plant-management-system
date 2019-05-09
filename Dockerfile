@@ -1,6 +1,7 @@
 FROM node:latest
 
 # Create app directory
+# Create app directory111
 WORKDIR /localdrive/testproject/app
 
 # Install app dependencies
