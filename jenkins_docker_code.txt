@@ -1,0 +1,5 @@
+docker build ./ -t plant-management:$BUILD_NUMBER
+
+docker stop plant1
+
+docker run -d -p 49160:3003 --rm --name plant1 plant-management:$BUILD_NUMBER
